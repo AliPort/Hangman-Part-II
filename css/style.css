@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+    width:100%;
+    margin:0 auto;
+}
+
+.h1 {
+    top:10%;
+    border:2px solid black;
+}
+
+.buttons{
+    color:#3B8686;
+    border: black;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 18px 10px;
+}
