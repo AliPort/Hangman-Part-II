@@ -6,16 +6,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="ie=edge" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+    </style>
   <title>Hangman</title>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Hangman</h1>
-        <div id ='buttons'></div>
-        <p id = 'category'></p>
-        <p id = 'lives'></p>
-        <p id = 'clue'Clue:></p>
-        <canvas id='hangman'></canvas>
+        
 
        
        
@@ -26,10 +25,14 @@
   </form>
 <!-- Insert a function that has the player's name before the word 'Click'-->
   <h2>Click on a letter to complete the word</h2>
-    <p id="catergory"></p>
-    <br>
-    <p id="clue"></p>
-  <div class = 'container'>
+  <div id ='alphabet'></div>
+        <div id = 'category'>The category is:</div>
+        <div id = 'lives'>Number of lives left:</div>
+        <div id = 'clue'>Clue:</div>
+        <canvas id='hangman' width="400px" height="300px" >
+          Your browser does not support HTML5 Canvas element
+          </canvas>
+    <div class = 'container'>
     <button id = 'hint'>Hint</button>
     <button id = 'try again'>Try again</button>
   </div>

@@ -1,3 +1,7 @@
+body {
+    background-color: #4F6367;
+}
+
 .container{
     text-align: center;
     width:100%;
@@ -9,10 +13,74 @@
     border:2px solid black;
 }
 
-.buttons{
-    color:#3B8686;
+#myButtons{
+    color:#B8D8D8;
     border: black;
-    text-decoration: none;
+    border-style: ridge;
+    text-align: center;
     font-size: 2em;
     padding: 18px 10px;
+}
+
+/*was not able to get the text above the button to change*/
+.firstName{
+    font-family:'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+#category{
+    text-align:center;
+    font-family:'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+#lives{
+    text-align:center;
+    font-family:'Raleway', sans-serif;
+    font-size: 2em;    
+}
+
+#clue{
+    text-align:center;
+    font-family:'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    font-style: bold;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    font-style: bold;
+    text-align: center;
+}
+
+.alphabet li {
+    float:left;
+    margin: 0 10px 10px 0;
+    list-style:none;
+    width:35px;
+    height:30px;
+    padding-top:10px;
+    color:#EEF5DB; 
+    border: solid 1px white;
+}
+
+.alphabet {
+    margin: 15px auto;
+    width: 25px;
+}
+
+#word {
+    display: block;
+}
+
+.hangman{
+    color: white;
 }
