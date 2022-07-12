@@ -15,18 +15,10 @@
     <div class="container">
         <h1>Welcome to Hangman</h1>
         
-
-       
-       
-  <form action="#">
-    <label for="firstName">Player Name</label><br>
-    <input type="text" name="firstName"><br>
-    <input type="submit" value="Submit">
-  </form>
-<!-- Insert a function that has the player's name before the word 'Click'-->
   <h2>Click on a letter to complete the word</h2>
-  <div id ='alphabet'></div>
+    <div id ='alphabet'></div>
         <div id = 'category'>The category is:</div>
+        <div id = 'holder'></div>
         <div id = 'lives'>Number of lives left:</div>
         <div id = 'clue'>Clue:</div>
         <canvas id='hangman' width="400px" height="300px" >
@@ -34,7 +26,7 @@
           </canvas>
     <div class = 'container'>
     <button id = 'hint'>Hint</button>
-    <button id = 'try again'>Try again</button>
+    <button class = 'btn btn-info' onClick= "tryAgain()">Try Again</button>
   </div>
     
 </div>

@@ -10,8 +10,10 @@ const myButtons = function () {
     buttons = document.getElementById('myButtons');
     letters = document.createElement('li');
 
+
+
     // query for the alphabet ol
-    const alphabetList = document.querySelector('#alphabet');
+  const alphabetList = document.querySelector('#alphabet');
 
     for (var i = 0; i <alphabet.length; i++) {
       // add in li elements for each letter
@@ -19,6 +21,19 @@ const myButtons = function () {
       letterButton.type = 'button';
       letterButton.value = alphabet[i];
       // have them be clickable
+      //button.addEventListener('click',()=>)
+        //need to add in the loop for the chosenWord
+      
+
+      /*for (var i = 0; i < hangman.alphabetArray.length; i++){
+        $('<button/',{
+          text:hangman.alphabetArray[i],
+          width: '20px';
+          click: function(event){
+            checkGuess(event,false);
+          }
+        }).appendTo('#buttondiv');
+      }*/
 
       // append to list
       alphabetList.append(letterButton);
@@ -50,7 +65,7 @@ function category() {
 //guesses
 //got examples from stackoverflow.com
 result = function () {
-    wordHolder=document.getElementById('holder');
+    wordHolder=document.getElementById('holder').innerHTML = holder;
     correct = document.createElement('ul');
 
     for (const i = 0; i<word.length; i++){
@@ -75,8 +90,8 @@ result = function () {
     if (lives < 1) {
       showLives.innerHTML = "Game Over";
     }
-    for (var i = 0; i < geusses.length; i++) {
-      if (counter + space === geusses.length) {
+    for (var i = 0; i < guesses.length; i++) {
+      if (counter + space === guesses.length) {
         showLives.innerHTML = "You Win!";
       }
     }

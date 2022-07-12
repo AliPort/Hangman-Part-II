@@ -22,10 +22,15 @@ body {
     padding: 18px 10px;
 }
 
-/*was not able to get the text above the button to change*/
-.firstName{
+
+
+#alphabet{
     font-family:'Raleway', sans-serif;
-    font-size: 1em;
+    font-size:2em;
+    padding:2em;
+    outline-color:black; 
+    margin: 1 1 1 0;
+
 }
 
 #category{
@@ -61,21 +66,6 @@ h2{
     text-align: center;
 }
 
-.alphabet li {
-    float:left;
-    margin: 0 10px 10px 0;
-    list-style:none;
-    width:35px;
-    height:30px;
-    padding-top:10px;
-    color:#EEF5DB; 
-    border: solid 1px white;
-}
-
-.alphabet {
-    margin: 15px auto;
-    width: 25px;
-}
 
 #word {
     display: block;
