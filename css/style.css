@@ -20,6 +20,7 @@ body {
     text-align: center;
     font-size: 2em;
     padding: 18px 10px;
+    
 }
 
 
@@ -32,6 +33,14 @@ body {
     margin: 1 1 1 0;
 
 }
+
+#letterButton{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    background-color:#eef5db ;
+}
+
 
 #category{
     text-align:center;
@@ -60,7 +69,7 @@ h1{
 }
 
 h2{
-    font-family: 'Raleway', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 3em;
     font-style: bold;
     text-align: center;
@@ -69,6 +78,10 @@ h2{
 
 #word {
     display: block;
+    font-family:'Raleway', sans-serif;
+    font-size: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .hangman{
